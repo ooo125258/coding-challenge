@@ -1,7 +1,23 @@
-You have an array A of unique integers.
+package io.futurera.algorithm;
+
+import java.util.List;
+import java.util.ArrayList;
+
+/**
+ * You have an array A of unique integers.
 Given an array B of integers that is a subset of array A, reorder the matching integers
 in array A according to the order of array B.
 Example:
 array = [3, 5, 6, 7, 2, 0];
 reorder(array, [7, 5, 0]);
 array becomes [3, 7, 6, 5, 2, 0]
+ */
+public class ReorderBySubstring {
+
+    public static List<int> run(ArrayList l1, ArrayList l2) {
+        return new ArrayList<int>();
+    }
+}
+
+
+
